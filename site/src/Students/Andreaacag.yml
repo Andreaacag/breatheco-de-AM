@@ -1,0 +1,184 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrea
+    last_name: Amado Goncalves
+    
+    # Soy una persona perseverante
+    motto: Haz el bien sin mirar a quien
+    
+    # focus
+    focus: Cumplir con las metas establecidas
+    
+Soy abogado especializado en el área mercantil y en el arbitraje comercial. Mis principales cualidades se desarrollan en la resolución de conflictos, planes de prevencion de riesgos futuros y posibles daños a través del programa corporate compliance. Me desempeño en la redacción de contratos mercantiles y civiles, negociación y mediación.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: andrea.amadogoncalves@gmail.con
+    phone: 0412745765
+    website: asd.com #optional
+    linkedin:  Andrea Amado Goncalves 
+    
+    #
+    # *** IMPORTANT ****
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+       -idiom: Español
+         Level: nativo
+      - idiom: Inglés 
+         Level: intermedio
+
+    # Interests or hobies
+    interests:
+      - item: Senderismo 
+
+      - item: Pintar
+
+      - item: Actividades Extremas
+
+# Your previous education
+education:
+    - degree: MBA Arbitraje internacional 
+      university: Esneca Business School, España 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021-2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Abogado
+      university: Universidad Católica Andres Bello
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016- 2021
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Especialista de Asuntos Legales 
+      time: 2022- 2023
+       Company: Digitel 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Redacción de contratos de arrendamiento, compraventa, poderes, permisos y autorizaciones.
+Negociaciones con equipos internos, externos y clientes 
+Levantamiento de informes jurídicos y análisis estratégicos 
+          
+- Bullet point
+          - Bullet point
+
+    - role: Abogado Jr
+      time: 2021- 2022
+      company: Atenea Global Services 
+   
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+      Redacción de contratos de arrendamiento, intermediación bancaria, servicios, compraventa, poderes, autorizaciones.
+capacitación al equipo en atención a funcionarios públicos 
+Levantamiento de los procesos internos del departamento legal mediante la creación del workflow para las solicitudes internas
+Investigación penal sobre clientes y proveedores 
+Establecimiento del Corporate compliance & due diligence 
+
+          - Bullet point
+          - Bullet point
+
+    - role: Auxiliar Legal 
+      time: 2020- 2011
+      company: Beco&Co
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Redacción de contratos mercantiles, Actas de asamblea, poderes, permisos de viaje, compraventas, fusión de empresas, contratos de logística y mantenimiento 
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
